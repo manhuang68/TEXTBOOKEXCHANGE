@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-eqiv="Content-Type" content="text/html"; charset="utf-8">
+	<title>Searching</title>
+	<style>
+		.button--pill{
+			font-family: Helvetica, Arial, sans-serif; 
+				box-shadow:inset 0px 1px 5px 0px #a4e271;
+	background:linear-gradient(to bottom, gray 5%, black 100%);
+	background-color:#89c403;
+
+		}
+		.button--pill:hover {
+	background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+	background-color:#77a809;
+}
+	</style>
+</head>
+
+<body>
+	<form action="search.php" method="post" class="form--inline">
+		<input type="text" name="search" size="45" placeholder="Enter the tittle or the ISBN of the book to search your Books..." >
+		<input type="submit" name="searching" value="Search" class="button--pill" />
+	</form>
+</body>
+</html>
